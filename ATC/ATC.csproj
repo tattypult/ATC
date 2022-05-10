@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B1E02956-267F-4E79-A768-F48AD2715EC4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ATC</RootNamespace>
+    <AssemblyName>ATC</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icons8_telephone.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu.Licensing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=f89b4760ba7dcb6b" />
+    <Reference Include="Bunifu.UI.WinForms.1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Bunifu.UI.WinForms.1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuButton, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>BunifuCrack-main\Bunifu.UI.WinForms.BunifuButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuCheckBox">
+      <HintPath>..\..\..\source\repos\ATC\ATC\BunifuCrack-main\Bunifu.UI.WinForms.BunifuCheckBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDropdown">
+      <HintPath>..\..\..\source\repos\ATC\ATC\BunifuCrack-main\Bunifu.UI.WinForms.BunifuDropdown.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuFormDock">
+      <HintPath>..\..\..\source\repos\ATC\ATC\BunifuCrack-main\Bunifu.UI.WinForms.BunifuFormDock.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuGradientPanel">
+      <HintPath>BunifuCrack-main\Bunifu.UI.WinForms.BunifuGradientPanel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuImageButton">
+      <HintPath>..\..\..\source\repos\ATC\ATC\BunifuCrack-main\Bunifu.UI.WinForms.BunifuImageButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuLabel">
+      <HintPath>..\..\..\source\repos\ATC\ATC\BunifuCrack-main\Bunifu.UI.WinForms.BunifuLabel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuPanel">
+      <HintPath>BunifuCrack-main\Bunifu.UI.WinForms.BunifuPanel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuPictureBox">
+      <HintPath>BunifuCrack-main\Bunifu.UI.WinForms.BunifuPictureBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuRadioButton">
+      <HintPath>..\..\..\source\repos\ATC\ATC\BunifuCrack-main\Bunifu.UI.WinForms.BunifuRadioButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuRating">
+      <HintPath>..\..\..\source\repos\ATC\ATC\BunifuCrack-main\Bunifu.UI.WinForms.BunifuRating.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuScrollBar">
+      <HintPath>BunifuCrack-main\Bunifu.UI.WinForms.BunifuScrollBar.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuSeparator">
+      <HintPath>..\..\..\source\repos\ATC\ATC\BunifuCrack-main\Bunifu.UI.WinForms.BunifuSeparator.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuTextbox">
+      <HintPath>BunifuCrack-main\Bunifu.UI.WinForms.BunifuTextbox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuToggleSwitch">
+      <HintPath>..\..\..\source\repos\ATC\ATC\BunifuCrack-main\Bunifu.UI.WinForms.BunifuToggleSwitch.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="classespractDX_500\AnswersDX_500.cs" />
+    <Compile Include="classespractHipass\HipassAnswers.cs" />
+    <Compile Include="classespractHipass\QuestionsHipass.cs" />
+    <Compile Include="classpractHicom\AnswersHiCom.cs" />
+    <Compile Include="classpractHicom\QuestionsHiCom.cs" />
+    <Compile Include="classpractT_76\T_76Answers.cs" />
+    <Compile Include="classpractT_76\T_76Questions.cs" />
+    <Compile Include="Main\Proverka.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\Proverka.Designer.cs">
+      <DependentUpon>Proverka.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main\Rezult.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\Rezult.Designer.cs">
+      <DependentUpon>Rezult.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QA\Ansewrs.cs" />
+    <Compile Include="classespractDX_500\QuestionsDX.cs" />
+    <Compile Include="Main\AboutProgram.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\AboutProgram.Designer.cs">
+      <DependentUpon>AboutProgram.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formspract\DX-500.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formspract\DX-500.Designer.cs">
+      <DependentUpon>DX-500.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formspract\HiCom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formspract\HiCom.Designer.cs">
+      <DependentUpon>HiCom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formspract\HiPass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formspract\HiPass.Designer.cs">
+      <DependentUpon>HiPass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main\Information.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\Information.Designer.cs">
+      <DependentUpon>Information.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Formspract\T-76.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formspract\T-76.Designer.cs">
+      <DependentUpon>T-76.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main\TEST.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\TEST.Designer.cs">
+      <DependentUpon>TEST.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QA\Questions.cs" />
+    <Compile Include="Theory\TDX_500.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Theory\TDX_500.Designer.cs">
+      <DependentUpon>TDX_500.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Theory\THicom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Theory\THicom.Designer.cs">
+      <DependentUpon>THicom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Theory\THipass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Theory\THipass.Designer.cs">
+      <DependentUpon>THipass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Theory\TT-76.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Theory\TT-76.Designer.cs">
+      <DependentUpon>TT-76.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Main\AboutProgram.resx">
+      <DependentUpon>AboutProgram.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formspract\DX-500.resx">
+      <DependentUpon>DX-500.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formspract\HiCom.resx">
+      <DependentUpon>HiCom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formspract\HiPass.resx">
+      <DependentUpon>HiPass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\Information.resx">
+      <DependentUpon>Information.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\Proverka.resx">
+      <DependentUpon>Proverka.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\Rezult.resx">
+      <DependentUpon>Rezult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Formspract\T-76.resx">
+      <DependentUpon>T-76.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\TEST.resx">
+      <DependentUpon>TEST.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Theory\TDX_500.resx">
+      <DependentUpon>TDX_500.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Theory\THicom.resx">
+      <DependentUpon>THicom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Theory\THipass.resx">
+      <DependentUpon>THipass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Theory\TT-76.resx">
+      <DependentUpon>TT-76.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icons8_telephone.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
