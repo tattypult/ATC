@@ -14,12 +14,14 @@ namespace ATC
     {
         public Information()
         {
+            Program.test = new TEST();
             InitializeComponent();
         }
 
         private void bunifuImageButton2_Click(object sender, EventArgs e)
         {
             this.Close();
+            Program.test.bunifuImageButton2.Enabled = true;
         }
     }
 }

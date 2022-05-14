@@ -57,7 +57,7 @@
             this.bunifuLabel1.MaximumSize = new System.Drawing.Size(180, 40);
             this.bunifuLabel1.Name = "bunifuLabel1";
             this.bunifuLabel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel1.Size = new System.Drawing.Size(180, 38);
+            this.bunifuLabel1.Size = new System.Drawing.Size(180, 40);
             this.bunifuLabel1.TabIndex = 0;
             this.bunifuLabel1.Text = "Количество выполненых заданий:";
             this.bunifuLabel1.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
@@ -247,7 +247,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Rezult";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Rezult";
+            this.Text = "Результат";
             this.ResumeLayout(false);
             this.PerformLayout();
 

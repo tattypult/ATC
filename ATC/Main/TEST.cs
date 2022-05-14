@@ -17,8 +17,8 @@ namespace ATC
         private void bunifuImageButton1_Click(object sender, EventArgs e)
         {
             this.Close();
-            Program.form1.button1.Enabled = false;
-            Program.form1.button2.Enabled = false;
+            Program.form1.button1.Enabled = true;
+            Program.form1.button2.Enabled = true;
             Program.form1.HiComBut.Enabled = true;
             Program.form1.DX_500But.Enabled = true;
             Program.form1.HipassBut.Enabled = true;
@@ -29,6 +29,7 @@ namespace ATC
         private void bunifuImageButton2_Click(object sender, EventArgs e)
         {
             new Information().Show();
+            bunifuImageButton2.Enabled = false;
         }
         private void bunifuButton1_Click(object sender, EventArgs e)
         {
@@ -52,6 +53,11 @@ namespace ATC
             if (bunifuDropdown1.SelectedIndex == 3)
             {
                 new T_76(FIO, N_group).Show();
+                this.Close();
+            }
+            if (bunifuDropdown1.SelectedIndex == 4)
+            {
+                new Alltests(FIO, N_group).Show();
                 this.Close();
             }
         }

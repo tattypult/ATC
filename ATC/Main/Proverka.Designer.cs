@@ -167,7 +167,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Proverka";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Proverka";
+            this.Text = "Проверка";
             this.ResumeLayout(false);
             this.PerformLayout();
 

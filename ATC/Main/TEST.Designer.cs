@@ -168,7 +168,8 @@ namespace ATC
             "Hicom",
             "Hipass",
             "DX-500",
-            "T-76"});
+            "T-76",
+            "Общий тест"});
             this.bunifuDropdown1.ItemTopMargin = 3;
             this.bunifuDropdown1.Location = new System.Drawing.Point(195, 47);
             this.bunifuDropdown1.Margin = new System.Windows.Forms.Padding(2);
@@ -324,7 +325,7 @@ namespace ATC
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "TEST";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "TEST";
+            this.Text = "Тест";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -334,13 +335,13 @@ namespace ATC
 
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
         private Bunifu.UI.WinForms.BunifuImageButton bunifuImageButton1;
-        private Bunifu.UI.WinForms.BunifuImageButton bunifuImageButton2;
+        public Bunifu.UI.WinForms.BunifuImageButton bunifuImageButton2;
         private System.Windows.Forms.Label label1;
         private Bunifu.UI.WinForms.BunifuDropdown bunifuDropdown1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        public System.Windows.Forms.TextBox textBox2;
-        public System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox1;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton bunifuButton1;
     }
 }

@@ -12,10 +12,6 @@ namespace ATC
         double paneilwidth;
         bool hidden;
         double loc = 156;
-        TDX_500 tDX_500;
-        THicom hicom;
-        THipass hipass;
-        TT_76 TT_76;
         public Form1()
         {
             InitializeComponent();
@@ -24,10 +20,6 @@ namespace ATC
             timer1.Interval = (int)ts.TotalMilliseconds;
             timer1.Tick += Timer_Tick;
             paneilwidth = panel1.Width;
-            tDX_500 = new TDX_500();
-            hicom = new THicom();
-            hipass = new THipass();
-            TT_76 = new TT_76();
             Program.form1 = this;
         }
 
@@ -88,30 +80,35 @@ namespace ATC
         private void bunifuButton2_Click(object sender, EventArgs e)
         {
             new AboutProgram().Show();
+            bunifuButton2.Enabled = false;
         }
 
         private void DX_500But_Click(object sender, EventArgs e)
         {
-            tDX_500.Show();
+            new TDX_500().Show();
             DX_500But.Enabled = false;
+            bunifuButton1.Enabled = false;
         }
 
         private void HiComBut_Click(object sender, EventArgs e)
         {
-            hicom.Show();
+            new THicom().Show();
+            HiComBut.Enabled = false;
+            bunifuButton1.Enabled = false;
         }
 
         private void T_76But_Click(object sender, EventArgs e)
         {
-            TT_76.Show();
+            new TT_76().Show();
             T_76But.Enabled = false;
+            bunifuButton1.Enabled = false;
         }
 
         private void HipassBut_Click(object sender, EventArgs e)
         {
-            hipass.Show();
+            new THipass().Show();
             HipassBut.Enabled = false;
-
+            bunifuButton1.Enabled = false;
         }
     }
 }

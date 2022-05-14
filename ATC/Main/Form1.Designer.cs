@@ -262,14 +262,14 @@
             this.bunifuLabel1.AutoEllipsis = false;
             this.bunifuLabel1.Cursor = System.Windows.Forms.Cursors.Default;
             this.bunifuLabel1.CursorType = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.bunifuLabel1.Font = new System.Drawing.Font("Times New Roman", 14F);
             this.bunifuLabel1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.bunifuLabel1.Location = new System.Drawing.Point(283, 12);
+            this.bunifuLabel1.Location = new System.Drawing.Point(183, 12);
             this.bunifuLabel1.Name = "bunifuLabel1";
             this.bunifuLabel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel1.Size = new System.Drawing.Size(36, 15);
+            this.bunifuLabel1.Size = new System.Drawing.Size(334, 21);
             this.bunifuLabel1.TabIndex = 2;
-            this.bunifuLabel1.Text = "ты лох";
+            this.bunifuLabel1.Text = "Программа для обучения и тестирования ";
             this.bunifuLabel1.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.bunifuLabel1.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
@@ -430,7 +430,7 @@
             this.Name = "Form1";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "ATC";
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
@@ -453,7 +453,7 @@
         public Bunifu.Framework.UI.BunifuTileButton HiComBut;
         public Bunifu.UI.WinForms.BunifuPanel bunifuPanel1;
         public Bunifu.UI.WinForms.BunifuButton.BunifuButton bunifuButton1;
-        private Bunifu.UI.WinForms.BunifuButton.BunifuButton bunifuButton2;
+        public Bunifu.UI.WinForms.BunifuButton.BunifuButton bunifuButton2;
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel1;
     }
 }

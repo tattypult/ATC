@@ -16,5 +16,12 @@ namespace ATC
         {
             InitializeComponent();
         }
+
+        private void bunifuImageButton6_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Program.form1.T_76But.Enabled = true;
+            Program.form1.bunifuButton1.Enabled = true;
+        }
     }
 }

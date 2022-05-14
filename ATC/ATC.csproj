@@ -82,6 +82,9 @@
     <Reference Include="Bunifu.UI.WinForms.BunifuSeparator">
       <HintPath>..\..\..\source\repos\ATC\ATC\BunifuCrack-main\Bunifu.UI.WinForms.BunifuSeparator.dll</HintPath>
     </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuSlider">
+      <HintPath>BunifuCrack-main\Bunifu.UI.WinForms.BunifuSlider.dll</HintPath>
+    </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuTextbox">
       <HintPath>BunifuCrack-main\Bunifu.UI.WinForms.BunifuTextbox.dll</HintPath>
     </Reference>
@@ -112,6 +115,12 @@
     <Compile Include="classpractHicom\QuestionsHiCom.cs" />
     <Compile Include="classpractT_76\T_76Answers.cs" />
     <Compile Include="classpractT_76\T_76Questions.cs" />
+    <Compile Include="Formspract\Alltests.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formspract\Alltests.Designer.cs">
+      <DependentUpon>Alltests.cs</DependentUpon>
+    </Compile>
     <Compile Include="Main\Proverka.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -201,6 +210,9 @@
     <Compile Include="Theory\TT-76.Designer.cs">
       <DependentUpon>TT-76.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Formspract\Alltests.resx">
+      <DependentUpon>Alltests.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Main\AboutProgram.resx">
       <DependentUpon>AboutProgram.cs</DependentUpon>
     </EmbeddedResource>

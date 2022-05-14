@@ -44,15 +44,13 @@ namespace ATC
             {
                 iterc.Add(i);
             }
+            Questions = new Questions();
+            Ansewrs = new Ansewrs();
+            random = new Random(DateTime.Now.Millisecond);
         }
 
         private void DX_500_Load(object sender, EventArgs e)
         {
-            Form1 form= new Form1();
-            form.DX_500But.Enabled = false;
-            Questions = new Questions();
-            Ansewrs = new Ansewrs();
-            random = new Random(DateTime.Now.Millisecond);
             step = random.Next(0, iterw.Count);
             iterw.Remove(iterw[step]);
             LabelQuestions.Text = Questions.Getquestionword(TypeATC.DX_500, step);
@@ -60,10 +58,10 @@ namespace ATC
             labelquest.Visible = true;
             textBox1.Visible = true;
             label1.Text = (questions) + "/21";
-            questions++;
         }
         private void bunifuButton1_Click(object sender, EventArgs e)
         {
+            questions++;
             if (questions == 22)
             {
                 Cast();
@@ -72,7 +70,6 @@ namespace ATC
             }
             Cast();
             Next();
-            questions++;
         next: { }
         }
 

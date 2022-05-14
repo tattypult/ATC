@@ -20,6 +20,7 @@ namespace ATC
         private void bunifuImageButton2_Click(object sender, EventArgs e)
         {
             this.Close();
+            Program.form1.bunifuButton2.Enabled = true;
         }
     }
 }

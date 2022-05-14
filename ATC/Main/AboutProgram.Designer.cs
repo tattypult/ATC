@@ -33,8 +33,8 @@
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuElipse2 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuImageButton2 = new Bunifu.UI.WinForms.BunifuImageButton();
-            this.bunifuImageButton1 = new Bunifu.UI.WinForms.BunifuImageButton();
-            this.bunifuLabel1 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // bunifuElipse1
@@ -64,17 +64,18 @@
             this.bunifuImageButton2.ImageActive = null;
             this.bunifuImageButton2.ImageLocation = null;
             this.bunifuImageButton2.ImageMargin = 0;
-            this.bunifuImageButton2.ImageSize = new System.Drawing.Size(37, 37);
-            this.bunifuImageButton2.ImageZoomSize = new System.Drawing.Size(38, 38);
+            this.bunifuImageButton2.ImageSize = new System.Drawing.Size(27, 30);
+            this.bunifuImageButton2.ImageZoomSize = new System.Drawing.Size(28, 31);
             this.bunifuImageButton2.InitialImage = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton2.InitialImage")));
-            this.bunifuImageButton2.Location = new System.Drawing.Point(2, 410);
+            this.bunifuImageButton2.Location = new System.Drawing.Point(3, 203);
+            this.bunifuImageButton2.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuImageButton2.Name = "bunifuImageButton2";
             this.bunifuImageButton2.Rotation = 0;
             this.bunifuImageButton2.ShowActiveImage = true;
             this.bunifuImageButton2.ShowCursorChanges = true;
             this.bunifuImageButton2.ShowImageBorders = true;
             this.bunifuImageButton2.ShowSizeMarkers = false;
-            this.bunifuImageButton2.Size = new System.Drawing.Size(38, 38);
+            this.bunifuImageButton2.Size = new System.Drawing.Size(28, 31);
             this.bunifuImageButton2.TabIndex = 12;
             this.bunifuImageButton2.ToolTipText = "";
             this.bunifuImageButton2.WaitOnLoad = false;
@@ -82,70 +83,41 @@
             this.bunifuImageButton2.ZoomSpeed = 10;
             this.bunifuImageButton2.Click += new System.EventHandler(this.bunifuImageButton2_Click);
             // 
-            // bunifuImageButton1
+            // label1
             // 
-            this.bunifuImageButton1.ActiveImage = null;
-            this.bunifuImageButton1.AllowAnimations = true;
-            this.bunifuImageButton1.AllowBuffering = false;
-            this.bunifuImageButton1.AllowToggling = false;
-            this.bunifuImageButton1.AllowZooming = true;
-            this.bunifuImageButton1.AllowZoomingOnFocus = false;
-            this.bunifuImageButton1.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuImageButton1.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.bunifuImageButton1.ErrorImage = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton1.ErrorImage")));
-            this.bunifuImageButton1.FadeWhenInactive = false;
-            this.bunifuImageButton1.Flip = Bunifu.UI.WinForms.BunifuImageButton.FlipOrientation.Normal;
-            this.bunifuImageButton1.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton1.Image")));
-            this.bunifuImageButton1.ImageActive = null;
-            this.bunifuImageButton1.ImageLocation = null;
-            this.bunifuImageButton1.ImageMargin = 0;
-            this.bunifuImageButton1.ImageSize = new System.Drawing.Size(89, 89);
-            this.bunifuImageButton1.ImageZoomSize = new System.Drawing.Size(90, 90);
-            this.bunifuImageButton1.InitialImage = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton1.InitialImage")));
-            this.bunifuImageButton1.Location = new System.Drawing.Point(331, 269);
-            this.bunifuImageButton1.Name = "bunifuImageButton1";
-            this.bunifuImageButton1.Rotation = 0;
-            this.bunifuImageButton1.ShowActiveImage = true;
-            this.bunifuImageButton1.ShowCursorChanges = true;
-            this.bunifuImageButton1.ShowImageBorders = true;
-            this.bunifuImageButton1.ShowSizeMarkers = false;
-            this.bunifuImageButton1.Size = new System.Drawing.Size(90, 90);
-            this.bunifuImageButton1.TabIndex = 11;
-            this.bunifuImageButton1.ToolTipText = "";
-            this.bunifuImageButton1.WaitOnLoad = false;
-            this.bunifuImageButton1.Zoom = 0;
-            this.bunifuImageButton1.ZoomSpeed = 10;
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Location = new System.Drawing.Point(-6, -1);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(329, 138);
+            this.label1.TabIndex = 13;
+            this.label1.Text = "Программа разработана для обучения и тестирования по теме Автоматические телефонн" +
+    "ые станции(DX-500,Hicom,Hipath,T-76)";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // bunifuLabel1
+            // label2
             // 
-            this.bunifuLabel1.AllowParentOverrides = false;
-            this.bunifuLabel1.AutoEllipsis = false;
-            this.bunifuLabel1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel1.CursorType = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.bunifuLabel1.Location = new System.Drawing.Point(258, 189);
-            this.bunifuLabel1.Name = "bunifuLabel1";
-            this.bunifuLabel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel1.Size = new System.Drawing.Size(250, 20);
-            this.bunifuLabel1.TabIndex = 10;
-            this.bunifuLabel1.Text = "Здесь могла бы быть ваша реклама";
-            this.bunifuLabel1.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel1.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            this.label2.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.Location = new System.Drawing.Point(3, 111);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(246, 94);
+            this.label2.TabIndex = 14;
+            this.label2.Text = "Авторы:\r\nк-т Овешников Ю.М.\r\nс-т Яковлев Е.Д.\r\nп/п-к Костин";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // AboutProgram
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(324, 233);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.bunifuImageButton2);
-            this.Controls.Add(this.bunifuImageButton1);
-            this.Controls.Add(this.bunifuLabel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "AboutProgram";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "AboutProgram";
+            this.Text = "Информация о программе";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -153,8 +125,8 @@
 
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
         private Bunifu.UI.WinForms.BunifuImageButton bunifuImageButton2;
-        private Bunifu.UI.WinForms.BunifuImageButton bunifuImageButton1;
-        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel1;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse2;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
     }
 }

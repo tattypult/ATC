@@ -30,8 +30,8 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HiCom));
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges12 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges11 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges2 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuElipse2 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.panelka1 = new Bunifu.UI.WinForms.BunifuPanel();
@@ -68,11 +68,11 @@
             this.panelka1.BorderColor = System.Drawing.Color.Transparent;
             this.panelka1.BorderRadius = 3;
             this.panelka1.BorderThickness = 1;
-            this.panelka1.Location = new System.Drawing.Point(605, 94);
-            this.panelka1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panelka1.Location = new System.Drawing.Point(454, 76);
+            this.panelka1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panelka1.Name = "panelka1";
             this.panelka1.ShowBorders = true;
-            this.panelka1.Size = new System.Drawing.Size(595, 586);
+            this.panelka1.Size = new System.Drawing.Size(446, 476);
             this.panelka1.TabIndex = 44;
             // 
             // Panelka
@@ -83,41 +83,38 @@
             this.Panelka.BorderColor = System.Drawing.Color.Transparent;
             this.Panelka.BorderRadius = 3;
             this.Panelka.BorderThickness = 1;
-            this.Panelka.Location = new System.Drawing.Point(0, 93);
-            this.Panelka.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Panelka.Location = new System.Drawing.Point(0, 76);
+            this.Panelka.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Panelka.Name = "Panelka";
             this.Panelka.ShowBorders = true;
-            this.Panelka.Size = new System.Drawing.Size(607, 585);
+            this.Panelka.Size = new System.Drawing.Size(455, 475);
             this.Panelka.TabIndex = 43;
             // 
             // textBox5
             // 
             this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox5.Location = new System.Drawing.Point(728, 400);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox5.Location = new System.Drawing.Point(546, 325);
             this.textBox5.Multiline = true;
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(110, 18);
+            this.textBox5.Size = new System.Drawing.Size(82, 15);
             this.textBox5.TabIndex = 42;
             // 
             // textBox4
             // 
             this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox4.Location = new System.Drawing.Point(537, 345);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox4.Location = new System.Drawing.Point(403, 280);
             this.textBox4.Multiline = true;
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(110, 18);
+            this.textBox4.Size = new System.Drawing.Size(82, 15);
             this.textBox4.TabIndex = 41;
             // 
             // textBox3
             // 
             this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox3.Location = new System.Drawing.Point(358, 478);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox3.Location = new System.Drawing.Point(268, 388);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(110, 18);
+            this.textBox3.Size = new System.Drawing.Size(82, 15);
             this.textBox3.TabIndex = 39;
             // 
             // LabelQuestions
@@ -132,10 +129,10 @@
             this.LabelQuestions.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.LabelQuestions.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.LabelQuestions.Location = new System.Drawing.Point(0, 0);
-            this.LabelQuestions.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.LabelQuestions.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.LabelQuestions.Name = "LabelQuestions";
             this.LabelQuestions.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.LabelQuestions.Size = new System.Drawing.Size(1200, 89);
+            this.LabelQuestions.Size = new System.Drawing.Size(900, 72);
             this.LabelQuestions.TabIndex = 38;
             this.LabelQuestions.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.LabelQuestions.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
@@ -159,11 +156,11 @@
             this.bunifuButton4.ColorContrastOnClick = 45;
             this.bunifuButton4.ColorContrastOnHover = 45;
             this.bunifuButton4.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges12.BottomLeft = true;
-            borderEdges12.BottomRight = true;
-            borderEdges12.TopLeft = true;
-            borderEdges12.TopRight = true;
-            this.bunifuButton4.CustomizableEdges = borderEdges12;
+            borderEdges2.BottomLeft = true;
+            borderEdges2.BottomRight = true;
+            borderEdges2.TopLeft = true;
+            borderEdges2.TopRight = true;
+            this.bunifuButton4.CustomizableEdges = borderEdges2;
             this.bunifuButton4.DialogResult = System.Windows.Forms.DialogResult.None;
             this.bunifuButton4.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bunifuButton4.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
@@ -188,8 +185,8 @@
             this.bunifuButton4.IdleIconLeftImage = null;
             this.bunifuButton4.IdleIconRightImage = null;
             this.bunifuButton4.IndicateFocus = false;
-            this.bunifuButton4.Location = new System.Drawing.Point(1049, 5);
-            this.bunifuButton4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.bunifuButton4.Location = new System.Drawing.Point(787, 4);
+            this.bunifuButton4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuButton4.Name = "bunifuButton4";
             this.bunifuButton4.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bunifuButton4.OnDisabledState.BorderRadius = 5;
@@ -223,7 +220,7 @@
             this.bunifuButton4.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.bunifuButton4.OnPressedState.IconLeftImage = null;
             this.bunifuButton4.OnPressedState.IconRightImage = null;
-            this.bunifuButton4.Size = new System.Drawing.Size(149, 39);
+            this.bunifuButton4.Size = new System.Drawing.Size(112, 32);
             this.bunifuButton4.TabIndex = 2;
             this.bunifuButton4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuButton4.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -234,11 +231,11 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(61, 10);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBox2.Location = new System.Drawing.Point(46, 8);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(265, 34);
+            this.textBox2.Size = new System.Drawing.Size(200, 28);
             this.textBox2.TabIndex = 1;
             this.textBox2.Visible = false;
             this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged_1);
@@ -247,9 +244,10 @@
             // 
             this.label3.AutoSize = true;
             this.label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label3.Location = new System.Drawing.Point(3, 20);
+            this.label3.Location = new System.Drawing.Point(2, 16);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(50, 16);
+            this.label3.Size = new System.Drawing.Size(40, 13);
             this.label3.TabIndex = 14;
             this.label3.Text = "Ответ:";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -264,10 +262,9 @@
             this.panel2.Controls.Add(this.textBox2);
             this.panel2.Controls.Add(this.label3);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 679);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4);
+            this.panel2.Location = new System.Drawing.Point(0, 552);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1200, 54);
+            this.panel2.Size = new System.Drawing.Size(900, 44);
             this.panel2.TabIndex = 45;
             // 
             // label2
@@ -275,10 +272,9 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(577, 10);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(433, 8);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(55, 29);
+            this.label2.Size = new System.Drawing.Size(44, 24);
             this.label2.TabIndex = 17;
             this.label2.Text = "null";
             // 
@@ -301,11 +297,11 @@
             this.bunifuButton3.ColorContrastOnClick = 45;
             this.bunifuButton3.ColorContrastOnHover = 45;
             this.bunifuButton3.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges11.BottomLeft = true;
-            borderEdges11.BottomRight = true;
-            borderEdges11.TopLeft = true;
-            borderEdges11.TopRight = true;
-            this.bunifuButton3.CustomizableEdges = borderEdges11;
+            borderEdges1.BottomLeft = true;
+            borderEdges1.BottomRight = true;
+            borderEdges1.TopLeft = true;
+            borderEdges1.TopRight = true;
+            this.bunifuButton3.CustomizableEdges = borderEdges1;
             this.bunifuButton3.DialogResult = System.Windows.Forms.DialogResult.None;
             this.bunifuButton3.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bunifuButton3.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
@@ -329,8 +325,8 @@
             this.bunifuButton3.IdleIconLeftImage = null;
             this.bunifuButton3.IdleIconRightImage = null;
             this.bunifuButton3.IndicateFocus = false;
-            this.bunifuButton3.Location = new System.Drawing.Point(895, 5);
-            this.bunifuButton3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.bunifuButton3.Location = new System.Drawing.Point(671, 4);
+            this.bunifuButton3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuButton3.Name = "bunifuButton3";
             this.bunifuButton3.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bunifuButton3.OnDisabledState.BorderRadius = 5;
@@ -364,7 +360,7 @@
             this.bunifuButton3.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.bunifuButton3.OnPressedState.IconLeftImage = null;
             this.bunifuButton3.OnPressedState.IconRightImage = null;
-            this.bunifuButton3.Size = new System.Drawing.Size(149, 39);
+            this.bunifuButton3.Size = new System.Drawing.Size(112, 32);
             this.bunifuButton3.TabIndex = 16;
             this.bunifuButton3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuButton3.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -391,17 +387,18 @@
             this.bunifuImageButton1.ImageActive = null;
             this.bunifuImageButton1.ImageLocation = null;
             this.bunifuImageButton1.ImageMargin = 0;
-            this.bunifuImageButton1.ImageSize = new System.Drawing.Size(861, 377);
-            this.bunifuImageButton1.ImageZoomSize = new System.Drawing.Size(862, 378);
+            this.bunifuImageButton1.ImageSize = new System.Drawing.Size(645, 306);
+            this.bunifuImageButton1.ImageZoomSize = new System.Drawing.Size(646, 307);
             this.bunifuImageButton1.InitialImage = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton1.InitialImage")));
-            this.bunifuImageButton1.Location = new System.Drawing.Point(194, 208);
+            this.bunifuImageButton1.Location = new System.Drawing.Point(146, 169);
+            this.bunifuImageButton1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuImageButton1.Name = "bunifuImageButton1";
             this.bunifuImageButton1.Rotation = 0;
             this.bunifuImageButton1.ShowActiveImage = true;
             this.bunifuImageButton1.ShowCursorChanges = true;
             this.bunifuImageButton1.ShowImageBorders = true;
             this.bunifuImageButton1.ShowSizeMarkers = false;
-            this.bunifuImageButton1.Size = new System.Drawing.Size(862, 378);
+            this.bunifuImageButton1.Size = new System.Drawing.Size(646, 307);
             this.bunifuImageButton1.TabIndex = 46;
             this.bunifuImageButton1.ToolTipText = "";
             this.bunifuImageButton1.WaitOnLoad = false;
@@ -410,10 +407,10 @@
             // 
             // HiCom
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(75)))), ((int)(((byte)(105)))));
-            this.ClientSize = new System.Drawing.Size(1200, 733);
+            this.ClientSize = new System.Drawing.Size(900, 596);
             this.Controls.Add(this.panelka1);
             this.Controls.Add(this.Panelka);
             this.Controls.Add(this.textBox3);
@@ -423,9 +420,10 @@
             this.Controls.Add(this.LabelQuestions);
             this.Controls.Add(this.panel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "HiCom";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "HiCom";
+            this.Text = "Hicom";
             this.Load += new System.EventHandler(this.HiCom_Load_1);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
